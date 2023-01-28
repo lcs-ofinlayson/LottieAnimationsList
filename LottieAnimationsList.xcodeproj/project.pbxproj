@@ -16,6 +16,7 @@
 		813509C62985760F00E069EE /* dlf10_GofK09iPAE.json in Resources */ = {isa = PBXBuildFile; fileRef = 813509C52985760F00E069EE /* dlf10_GofK09iPAE.json */; };
 		813509C82985768700E069EE /* dlf10_ISCngv3FyB.json in Resources */ = {isa = PBXBuildFile; fileRef = 813509C72985768700E069EE /* dlf10_ISCngv3FyB.json */; };
 		813509CA298576D300E069EE /* dlf10_C1zbAVnPjD.json in Resources */ = {isa = PBXBuildFile; fileRef = 813509C9298576D300E069EE /* dlf10_C1zbAVnPjD.json */; };
+		813509CC298577E600E069EE /* FavoriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813509CB298577E600E069EE /* FavoriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		813509C52985760F00E069EE /* dlf10_GofK09iPAE.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dlf10_GofK09iPAE.json; path = ../../../../../../Downloads/dlf10_GofK09iPAE.json; sourceTree = "<group>"; };
 		813509C72985768700E069EE /* dlf10_ISCngv3FyB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dlf10_ISCngv3FyB.json; path = ../../../../../../Downloads/dlf10_ISCngv3FyB.json; sourceTree = "<group>"; };
 		813509C9298576D300E069EE /* dlf10_C1zbAVnPjD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dlf10_C1zbAVnPjD.json; path = ../../../../../../Downloads/dlf10_C1zbAVnPjD.json; sourceTree = "<group>"; };
+		813509CB298577E600E069EE /* FavoriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		813509B92985702000E069EE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				813509CB298577E600E069EE /* FavoriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				813509AB29856FF300E069EE /* LottieAnimationsListApp.swift in Sources */,
 				813509BB2985703800E069EE /* AnimationsListView.swift in Sources */,
+				813509CC298577E600E069EE /* FavoriteAnimation.swift in Sources */,
 				813509C02985739700E069EE /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
