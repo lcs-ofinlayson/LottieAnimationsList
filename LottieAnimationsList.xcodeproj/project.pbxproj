@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		813509AB29856FF300E069EE /* LottieAnimationsListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813509AA29856FF300E069EE /* LottieAnimationsListApp.swift */; };
-		813509AD29856FF300E069EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813509AC29856FF300E069EE /* ContentView.swift */; };
 		813509AF29856FF500E069EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813509AE29856FF500E069EE /* Assets.xcassets */; };
 		813509B229856FF500E069EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813509B129856FF500E069EE /* Preview Assets.xcassets */; };
+		813509BB2985703800E069EE /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813509BA2985703800E069EE /* AnimationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		813509A729856FF300E069EE /* LottieAnimationsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimationsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		813509AA29856FF300E069EE /* LottieAnimationsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsListApp.swift; sourceTree = "<group>"; };
-		813509AC29856FF300E069EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		813509AE29856FF500E069EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813509B129856FF500E069EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		813509BA2985703800E069EE /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,9 @@
 		813509A929856FF300E069EE /* LottieAnimationsList */ = {
 			isa = PBXGroup;
 			children = (
+				813509B92985702000E069EE /* Model */,
+				813509B82985701A00E069EE /* Views */,
 				813509AA29856FF300E069EE /* LottieAnimationsListApp.swift */,
-				813509AC29856FF300E069EE /* ContentView.swift */,
 				813509AE29856FF500E069EE /* Assets.xcassets */,
 				813509B029856FF500E069EE /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				813509B129856FF500E069EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		813509B82985701A00E069EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				813509BA2985703800E069EE /* AnimationsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		813509B92985702000E069EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813509AD29856FF300E069EE /* ContentView.swift in Sources */,
 				813509AB29856FF300E069EE /* LottieAnimationsListApp.swift in Sources */,
+				813509BB2985703800E069EE /* AnimationsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
